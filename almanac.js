@@ -169,7 +169,6 @@ function pickRandom(array, size) {
 	for (var j = 0; j < array.length - size; j++) {
 		var index = random(iday, j) % result.length;
 		result.splice(index, 1);
-        console.log(index)
 	}
 	
 	return result;
@@ -212,5 +211,4 @@ $(function(){
 	$('.goddes_value').html(star(random(iday, 6) % 5 + 1));
 	pickTodaysLuck();
 });
-console.log(pickRandom(drinks, 2).join('，'));
 //
