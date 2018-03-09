@@ -60,7 +60,7 @@ var tools = ["Eclipse写程序", "M$ Office写文档", "记事本写程序", "Wi
 
 var varNames = ["jieguo", "huodong", "pay", "expire", "zhangdan", "every", "free", "i1", "a", "virtual", "ad", "spider", "mima", "pass", "ui"];
 
-var drinks = ["水","茶","红茶","绿茶","咖啡","奶茶","可乐","鲜奶","豆奶","果汁","果味汽水","苏打水","运动饮料","酸奶","酒","单枞茶","大红袍","铁观音","白茶"];
+var drinks = ["水","茶","红茶","绿茶","咖啡","奶茶","可乐","鲜奶","豆奶","果汁","果味汽水","苏打水","运动饮料","酸奶","酒","单枞茶","大红袍","铁观音","白茶", "水仙茶"];
 
 function is_someday() {
 	return today.getMonth() == 5 && today.getDate() == 4;
