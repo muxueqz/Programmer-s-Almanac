@@ -90,6 +90,10 @@ body {
 .bad .title {
 	background: #ff4444;
 	color: #fff;
+    writing-mode: vertical-rl;
+    vertical-align: middle;
+    display: inline;
+    text-orientation: upright;
 }
 
 .someday .bad .title {
@@ -103,6 +107,10 @@ body {
 	padding-top: 1px;
 	font-size:15pt;
 }
+
+/* .bad .content { */
+	/* margin-left: 0px; */
+/* } */
 
 .someday .good {
 	background: #dddddd;
